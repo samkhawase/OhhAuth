@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		2224C18621C3CAAF0098D738 /* OhhAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2224C17C21C3CAAF0098D738 /* OhhAuth.framework */; };
 		2224C18B21C3CAAF0098D738 /* OhhAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224C18A21C3CAAF0098D738 /* OhhAuthTests.swift */; };
-		2224C19721C3CAD60098D738 /* OhhAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224C19621C3CAD60098D738 /* OhhAuth.swift */; };
+		2224C19921C3CD3E0098D738 /* OhhAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224C19821C3CD3E0098D738 /* OhhAuth.swift */; };
+		2224C19A21C3CD3E0098D738 /* OhhAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2224C19821C3CD3E0098D738 /* OhhAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 		2224C18521C3CAAF0098D738 /* OhhAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhhAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2224C18A21C3CAAF0098D738 /* OhhAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhhAuthTests.swift; sourceTree = "<group>"; };
 		2224C18C21C3CAAF0098D738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2224C19621C3CAD60098D738 /* OhhAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OhhAuth.swift; sourceTree = "<group>"; };
+		2224C19821C3CD3E0098D738 /* OhhAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OhhAuth.swift; path = Sources/OhhAuth.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +72,7 @@
 		2224C17E21C3CAAF0098D738 /* OhhAuth */ = {
 			isa = PBXGroup;
 			children = (
-				2224C19621C3CAD60098D738 /* OhhAuth.swift */,
+				2224C19821C3CD3E0098D738 /* OhhAuth.swift */,
 				2224C18021C3CAAF0098D738 /* Info.plist */,
 			);
 			path = OhhAuth;
@@ -194,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2224C19721C3CAD60098D738 /* OhhAuth.swift in Sources */,
+				2224C19921C3CD3E0098D738 /* OhhAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2224C18B21C3CAAF0098D738 /* OhhAuthTests.swift in Sources */,
+				2224C19A21C3CD3E0098D738 /* OhhAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
